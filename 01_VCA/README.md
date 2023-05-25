@@ -88,7 +88,7 @@ Confidence intervals are computed using 2000 bootstrap samples, following [Suthe
 
 A final figure representing the VPC is plotted in 04_images. The first panel depicts the proportion of overall variance in ratings estimated to be due to random effects and their interaction. The second panel summarize the results using the *mBi*.
 
-![Alt text](01_VCA/04_images/01_fig1_VCA.jpg])
+![Alt text](04_images/01_fig1_VCA.jpg)
 
 For the given example, we can see that abstract images evoked states that are relatively more unique than shared, while the contrary is true for images of scenes.
 
