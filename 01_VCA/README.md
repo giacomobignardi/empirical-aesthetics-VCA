@@ -65,11 +65,9 @@ VCA_exposure() enables to partition variance in the amount of variance:
 
 NOTE: sum of VPC will be equal to 1:
 
-$VPC_{stimulus}$ + $VPC_{participant}$ + $VPC_{stimulsXparticipants}$ + $VPC_{block}$ + $VPC_{participantXblock}$ + $VPC_{stimulusXblock}$ + $VPC_{error}$ = 1
+$VPC_{stimulus}$ + $VPC_{individual}$ + $VPC_{stimulsXindividual}$ + $VPC_{block}$ + $VPC_{individualXblock}$ + $VPC_{stimulusXblock}$ + $VPC_{error}$ = 1
 
 The code outputs two versions of VPC. The first is the ratio between the variance component over the overall variance. The second is the ratio between the variance component over the overall variance from which the residual variance was  subtracted first (i.e., the repeatable variance)
-
-[Sutherland et al. (2020)](https://osf.io/35zf8/?view_only=e76c6755dcea4be2adc5b075cae896e8:))
 
 Moreover, this function directly outputs the "summary" of the VPC, which is the amount of repeatable variance that is unique or shared across individuals:
 
