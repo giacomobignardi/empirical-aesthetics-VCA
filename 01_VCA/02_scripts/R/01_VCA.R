@@ -25,8 +25,8 @@ wd_image = "04_images"
 #load dataFrames:
 #this data are a sampled version of cleaned data used by Bignardi et al.(under review) https://psyarxiv.com/79nbq
 #the data were originally collected by Germine et al. (2015, Current Biology) and made available at https://osf.io/c3hz6/
-sce_MLM_TwinLong  = read_csv(sprintf("%s/%s/00_sce_Twin1_Germine2015.csv", wd,wd_data))
-abs_MLM_TwinLong  = read_csv(sprintf("%s/%s/00_abs_Twin1_Germine2015.csv", wd,wd_data))
+sce_MLM_TwinLong  = read_csv(sprintf("%s/%s/01_sce_Twin1_Germine2015.csv", wd,wd_data))
+abs_MLM_TwinLong  = read_csv(sprintf("%s/%s/01_abs_Twin1_Germine2015.csv", wd,wd_data))
 #load functions:
 source(sprintf("%s/%s/vca_exposure.R", wd,wd_Rfunction))
 source(sprintf("%s/%s/VCA_exposure_tidyCI.R", wd,wd_Rfunction))

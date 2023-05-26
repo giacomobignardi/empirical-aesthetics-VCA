@@ -9,7 +9,7 @@ It contains example data obtained from published studies.
 It contains an example .R scripts to run:
 
 + 01_VCA.R: Example to calculate [Variance Component Analysis (VCA)](https://pubmed.ncbi.nlm.nih.gov/31898288/): Calculate the amount of variance in a given trait of interest (e.g., pleasantness) that is shared across and unique to individuals. It takes into account systematic differences between repeated exposures to the same stimulus. 
-+ functions/vca_exposure.r: Function to perform VCA, including the effect of repeated exposure on aesthetic ratings. It outputs Variance Partition Components estimates (VPC)
++ functions/vca_exposure.r: Function to perform VCA, including the effect of repeated exposure on aesthetic ratings. It outputs Variance Partitioning Coefficient estimates (VPC)
 + functions/vca_exposure_tidyCI.r : Function to calculate 95% CI of the VPC estimates.
 
 ## 03_outputs
@@ -20,7 +20,9 @@ It contains output from 02_scripts/R
 
 It contains images generated from 02_scripts/R
 
-## DETAILS
+## Example
+
+The example in 01_VCA.R answers the following question.
 
 Question:
 Are states (e.g., perceived beauty, aesthetic appreciation) evoked by sensory stimulation mostly shared, or are they mostly unique to individuals? 
@@ -31,8 +33,10 @@ VCA answer this question by partitioning the amount of variance in a given state
 When variance is mainly shared, there is little room for inter-individual differences. For example, this could happen when everyone experience (and report) the same level of felt beauty from a set of images. 
 When variance is primarily unique, states evoked by the stimulus/i are highly variable across individuals. For example, this could happen when there is a high disagreement between individuals on what is perceived (and reported) to be beautiful. 
 
+01_VCA.R provides this answer by using random intercept only multilevel modelling
+
 How:
-To extract Variance Partitioning Coefficients (VPC), VCA can be carried out via [Random intercept only multilevel modelling ](https://pubmed.ncbi.nlm.nih.gov/28481616/)
+To extract Variance Partitioning Coefficients (VPC), VCA can be carried out via [random intercept only multilevel modelling ](https://pubmed.ncbi.nlm.nih.gov/28481616/)
 
 Since estimating the noisiness of the individual reported states is necessary, VCA requires repeated ratings. This requirement also allows VCA to consider and quantify systematic differences between repeated exposures of the same stimulus.
 
