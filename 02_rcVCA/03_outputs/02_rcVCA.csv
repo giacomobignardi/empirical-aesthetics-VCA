@@ -1,0 +1,13 @@
+VPC,model,value,lmm
+Stimulus,null,0.14626214258817866,AE(null)
+Stimulus,SR,0.07898356980182317,AE~SR
+Stimulus_SR,null_m_SR,0.06727857278635549,AE~SR
+Individual,null,0.15459541948223962,AE(null)
+Individual,SR,0.10293975669480375,AE~SR
+Individual_SR,null_m_SR,0.05165566278743587,AE~SR
+Stimulus*Individual,null,0.42788488315209916,AE(null)
+Stimulus*Individual,SR,0.2680906467564603,AE~SR
+Stimulus*Individual_SR,null_m_SR,0.15979423639563883,AE~SR
+Residual,null,NA,AE(null)
+Residual,SR,NA,AE~SR
+Residual_SR,null_m_SR,NA,AE~SR

@@ -24,7 +24,7 @@ wd_image = "04_images"
 #load dataFrames:
 AESR_data  = read_delim(sprintf("%s/%s/02_MLM_AE_SR_Vessel2023.csv", wd,wd_data))
 #load functions:
-source(sprintf("%s/%s/rcvca.R", wd,wd_Rfunction))
+source(sprintf("%s/%s/rcvca.r", wd,wd_Rfunction))
 
 ##MLM####
 #define null model for "observational-variance"
