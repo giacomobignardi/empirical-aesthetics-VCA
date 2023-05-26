@@ -90,7 +90,7 @@ p1 = VCAsummary%>%
   #plot "sigificance" of the VPC
   scale_fill_manual(values = color_VA) +
   scale_y_continuous(limits = c(0,1), breaks = seq(0,1,by = .1))+
-  labs(y= "Proportion\nof variance", x = "Domain" ,fill = "Variance Component")+
+  labs(y= "Proportion\nof variance", x = "" ,fill = "Variance Component")+
   theme_classic(base_size = 12)
 
 #create a summary VPC (similar to Honekopp Beholder Index type 2; Honekopp 2006, Journal of Experimental Psychology)
@@ -104,7 +104,7 @@ p2 = VCAsummary%>%
     geom_errorbar(aes(ymin=CI_low, ymax=CI_high), position=position_dodge(.5), width = .25) +
     scale_fill_manual(values = c(color_Bi)) +
     scale_y_continuous(limits = c(0,1), breaks = seq(0,1,by = .1))+
-    labs(y= "Proportion of\nrepeatable variance", x = "" ,fill = "Summary") +
+    labs(y= "Proportion of\nrepeatable variance", x = "Domain" ,fill = "Summary") +
     theme_classic(base_size = 12)
   
 VCAsummary
