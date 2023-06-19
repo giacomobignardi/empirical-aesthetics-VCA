@@ -2,7 +2,7 @@ This branch contains useful scripts and examples to decompose the variance in ae
 
 ## 01_Data
 
-It contains example data from [Vessel et al., under review](https://psyarxiv.com/pnu3r/). Original data can be found at (insert link OSF here)
+It contains example data from [Vessel et al., under review](https://psyarxiv.com/pnu3r/). Original data can be found at https://osf.io/6zxc5/
 
 ## 02_scripts/R
 
