@@ -30,7 +30,7 @@ VCAsummary =
       as.numeric(quantile(bootVCA$t[,14], c(0.025, 0.975)))[1],
       as.numeric(quantile(bootVCA$t[,15], c(0.025, 0.975)))[1],
       as.numeric(quantile(bootVCA$t[,16], c(0.025, 0.975)))[1],
-      as.numeric(quantile(bootVCA$t[,16], c(0.025, 0.975)))[1],
+      as.numeric(quantile(bootVCA$t[,17], c(0.025, 0.975)))[1],
       as.numeric(quantile(bootVCA$t[,18], c(0.025, 0.975)))[1]
     ),
     CI_high = c(
@@ -50,7 +50,7 @@ VCAsummary =
       as.numeric(quantile(bootVCA$t[,14], c(0.025, 0.975)))[2],
       as.numeric(quantile(bootVCA$t[,15], c(0.025, 0.975)))[2],
       as.numeric(quantile(bootVCA$t[,16], c(0.025, 0.975)))[2],
-      as.numeric(quantile(bootVCA$t[,16], c(0.025, 0.975)))[2],
+      as.numeric(quantile(bootVCA$t[,17], c(0.025, 0.975)))[2],
       as.numeric(quantile(bootVCA$t[,18], c(0.025, 0.975)))[2]
     )
   )
