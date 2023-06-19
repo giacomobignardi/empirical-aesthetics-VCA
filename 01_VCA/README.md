@@ -2,7 +2,8 @@ This branch contains useful scripts and examples to decompose the variance in ae
 
 ## 01_Data
 
-It contains example data obtained from published studies.
+It contains example data obtained from [Germine et al., 2015](https://pubmed.ncbi.nlm.nih.gov/26441352/). Original data can be found at https://osf.io/c3hz6/.
+Laura Germine kindly granted permission to use the data for this tutorial.
 
 ## 02_scripts/R
 
